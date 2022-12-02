@@ -7,12 +7,16 @@
 	<title>
 		<?php echo $data["titulo"]; ?>
 	</title>
-	<!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
-	<!-- <script src="assets/js/bootstrap.min.js"></script> -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
 	<div class="container">
+		<br>
+		<br>
 		<h2>
 			<?php echo $data["titulo"]; ?>
 		</h2>
@@ -33,7 +37,11 @@
 				<label for="placa">Placa</label>
 				<input type="text" class="form-control" id="placa" name="placa" />
 			</div>
-			<button id="guardar" name="guardar" type="submit" class="btn btn-primary">Guardar carro</button>
+			<br>
+			<div style="display: flex; justify-content: center;">
+				<button id="guardar" name="guardar" type="submit" class="btn btn-primary">Guardar carro</button>
+			</div>
+
 
 		</form>
 	</div>

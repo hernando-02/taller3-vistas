@@ -7,24 +7,28 @@
 	<title>
 		<?php echo $data["titulo"]; ?>
 	</title>
-	<!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
-	<!-- <script src="assets/js/bootstrap.min.js"></script> -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
 	<div class="container">
-		<h2>
+		<br />
+		<br />
+		<h1>
 			<?php echo $data["titulo"]; ?>
-		</h2>
+		</h1>
 
-		<a href="index.php?c=vehiculos&a=nuevo" class="btn btn-primary">Agregar</a>
-
+		<a href="index.php?c=vehiculos&a=nuevo" class="btn btn-primary">Agregar nuevo</a>
 		<br />
 		<br />
+
 		<div class="table-responsive">
-			<table border="1" width="80%" class="table">
-				<thead>
-					<tr class="table-primary">
+			<table width="80%" class="table table-striped">
+				<thead class="table-dark">
+					<tr>
 						<th>Id</th>
 						<th>Marca</th>
 						<th>Modelo</th>
