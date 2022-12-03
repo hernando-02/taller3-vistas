@@ -24,38 +24,38 @@
         <form id="nuevo" name="nuevo" method="POST" action="index.php?c=alquileres&a=guarda" autocomplete="off">
 
             <div class="form-group">
-                <label for="id_auto">id_auto</label>
+                <label for="id_auto">Id Carro</label>
                 <input type="text" class="form-control" id="id_auto" name="id_auto"
                     value="<?php echo $data["id_carro"] ?>" />
             </div>
 
             <div class="form-group">
-                <label for="nombre_cliente">nombre_cliente</label>
+                <label for="nombre_cliente">Cliente</label>
                 <input type="text" class="form-control" id="nombre_cliente" name="nombre_cliente" />
             </div>
 
             <div class="form-group">
-                <label for="email_cliente">email_clientes</label>
+                <label for="email_cliente">Correo Cliente</label>
                 <input type="text" class="form-control" id="email_cliente" name="email_cliente" />
             </div>
 
             <div class="form-group">
-                <label for="nombre_prestador">nombre_prestador</label>
+                <label for="nombre_prestador">Empleado</label>
                 <input type="text" class="form-control" id="nombre_prestador" name="nombre_prestador" />
             </div>
 
             <div class="form-group">
-                <label for="hora_inicio">hora_inicio</label>
-                <input type="text" class="form-control" id="hora_inicio" name="hora_inicio" />
+                <label for="hora_inicio">Fecha prestamo</label>
+                <input type="datetime-local" class="form-control" id="hora_inicio" name="hora_inicio" />
             </div>
 
             <div class="form-group">
-                <label for="fecha_devolucion">fecha_devolucion</label>
-                <input type="text" class="form-control" id="fecha_devolucion" name="fecha_devolucion" />
+                <label for="fecha_devolucion">Fecha Devolucion</label>
+                <input type="date" class="form-control" id="fecha_devolucion" name="fecha_devolucion" />
             </div>
 
             <div class="form-group">
-                <label for="km_recorridos">km_recorridos</label>
+                <label for="km_recorridos">Kilometraje</label>
                 <input type="text" class="form-control" id="km_recorridos" name="km_recorridos" />
             </div>
 

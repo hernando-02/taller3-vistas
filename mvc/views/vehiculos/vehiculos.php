@@ -28,7 +28,7 @@
 			<div class="collapse navbar-collapse" id="navbarButtonsExample">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<span class="navbar-brand mb-0 h1">GESTION DE CARROS</span>
+						<span class="navbar-brand mb-0 h1">GESTIÓN DE CARROS</span>
 					</li>
 				</ul>
 				<div class="d-flex align-items-center">
@@ -42,6 +42,7 @@
 			</div>
 		</div>
 	</nav>
+	<!-- CONTENIDO PRINCIPAL -->
 	<div class="container">
 		<br />
 		<h1>
